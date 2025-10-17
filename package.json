@@ -7,7 +7,7 @@
     "build": "tsc -p tsconfig.json",
     "watch": "tsc -w",
     "start": "node dist/index.js",
-    "play": "node --loader ts-node/esm src/99-playground/Playground.ts"
+    "play": "tsx src/99-playground/Playground.ts"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +16,7 @@
   "devDependencies": {
     "@types/node": "^24.7.2",
     "ts-node": "^10.9.2",
+    "tsx": "^4.20.6",
     "typescript": "^5.9.3"
   }
 }
